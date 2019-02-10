@@ -10,6 +10,8 @@ Back a creator with Bitcoin!
 .. image:: https://travis-ci.org/MerlinB/btcbacker.io.svg?branch=master
    :target: https://travis-ci.org/MerlinB/btcbacker.io
 
-.. image:: https://img.shields.io/coveralls/github/MerlinB/btcbacker.svg?style=flat
+.. image:: https://coveralls.io/repos/github/MerlinB/btcbacker.io/badge.svg?branch=master
+   :target: https://coveralls.io/github/MerlinB/btcbacker.io?branch=master
+
 
 .. image:: https://img.shields.io/github/license/MerlinB/btcbacker.io.svg?style=flat
