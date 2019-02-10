@@ -1,5 +1,5 @@
-btcbacker
-=========
+btcbacker.io
+============
 
 Back a creator with Bitcoin!
 
