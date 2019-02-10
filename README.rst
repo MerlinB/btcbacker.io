@@ -7,5 +7,9 @@ Back a creator with Bitcoin!
      :target: https://github.com/pydanny/cookiecutter-django/
      :alt: Built with Cookiecutter Django
 
+.. image:: https://travis-ci.org/MerlinB/btcbacker.io.svg?branch=master
+   :target: https://travis-ci.org/MerlinB/btcbacker.io
 
-:License: MIT
+.. image:: https://img.shields.io/coveralls/github/MerlinB/btcbacker.svg?style=flat
+
+.. image:: https://img.shields.io/github/license/MerlinB/btcbacker.io.svg?style=flat
