@@ -1,8 +1,9 @@
 dist: xenial
-sudo: true
+services: postgresql
+env: DJANGO_SETTINGS_MODULE=config.settings.test
 language: python
-python:
-  - "3.7"
-install:
-  - pip install -r requirements/local.txt
+python: 3.7
+before_script: psql -c 'create database travis_ci_test;' -U postgres
+install: pip install -r requirements/local.txt
 script: coverage run -m pytest
+after_success: coveralls
